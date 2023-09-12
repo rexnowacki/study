@@ -22,7 +22,7 @@ This repository is a collection of my schoolwork, exercises, and projects for va
 To clone this repository, run the following command:
 
 ```bash
-git clone https://github.com/YourUsername/study-repo.git
+git clone https://github.com/rexnowacki/study.git
 ```
 ## Branching Strategy
 
