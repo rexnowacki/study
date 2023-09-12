@@ -1,3 +1,5 @@
+// Fancy printing, sort of
+
 #include <stdio.h>
 
 int main(void)

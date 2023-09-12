@@ -1,3 +1,5 @@
+// Converting from lowercase to uppercase
+
 #include <stdio.h>
 #include <ctype.h>
 
