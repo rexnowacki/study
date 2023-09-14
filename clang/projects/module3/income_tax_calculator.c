@@ -1,4 +1,6 @@
-
+// Christopher Nowacki
+// CIS 265 
+// State Income Tax Assignment
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
