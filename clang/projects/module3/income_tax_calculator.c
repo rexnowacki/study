@@ -20,7 +20,7 @@ int main() {
     if (!isdigit(input[1]) && input[i] != '.') {
       printf("Input contains invalid characters -- Aborting.");
       return 1;
-  }
+    }
   }
 
   // Now convert string to numbers

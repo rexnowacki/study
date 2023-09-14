@@ -28,7 +28,13 @@ int main() {
   oct_digit4 = (user_input / 8 / 8 / 8) % 8;
   oct_digit5 = (user_input / 8 / 8 / 8 / 8) % 8;
 
-  printf("In octal, your number is:%d%d%d%d%d\n", oct_digit5, oct_digit4, oct_digit3, oct_digit2, oct_digit1);
+  // Logic to remove leading 0's
+  if (oct_digit5 != 0) { 
+    printf("%d", oct_digit5);
+  }
+  printf("%d%d%d%d\n", oct_digit4, oct_digit3, oct_digit2, oct_digit1);
+  
+  // printf("In octal, your number is: %d%d%d%d%d\n", oct_digit5, oct_digit4, oct_digit3, oct_digit2, oct_digit1);
 
   return 0;
 }
