@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This repository is a collection of my schoolwork, exercises, and projects for various classes like C programming, Project Management, and Intro to C++. Feel free to explore, and constructive feedback is always welcome!
+This repository is a collection of my schoolwork, exercises, and projects for various classes like C programming, Systems Design & Analysis, and Intro to C++. Feel free to explore, and constructive feedback is always welcome!
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ This repository is a collection of my schoolwork, exercises, and projects for va
 
 ## Getting Started
 
-To clone this repository, run the following command:
+To clone this repository (I don't know why you'd want to, but whatever), run the following command:
 
 ```bash
 git clone https://github.com/rexnowacki/study.git
