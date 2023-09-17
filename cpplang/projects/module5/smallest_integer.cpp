@@ -1,15 +1,29 @@
-// 1. get user input with the n integers 
-// 2. run algorithm to determine smallest integer
-// 2a. compare int_a and int_b, set smallest_int = lesser
-// 2b. compare smallest_int and int_c, set smallest_int = lesser
-// 3. display results
+// Christopher Nowacki
+// CIS 278 -- Module 5
+// Integer Comparison Tool
 
 
 #include <iostream>
-#include <cmath>
 #include <limits>
 
 using namespace std;
+
+bool check_data();
+int get_integer_count();
+int get_integer_input(int integer);
+int find_smallest(int total_ints);
+
+int main() {
+  int total_ints = get_integer_count();
+  if (total_ints <= 0) {
+    cout << "Please enter a positive integer." << endl;
+    return 1;
+  }
+  int smallest = find_smallest(total_ints);
+  cout << "The smallest integer is: " << smallest << endl;
+
+  return 0;
+}
 
 bool check_data() {
   if (!cin) {
@@ -27,60 +41,35 @@ bool check_data() {
   return true;
 }
 
-// This function will determine the smallest integer and return it 
-int find_smallest(int integer_a, int integer_b, int integer_c, int integer_d, int integer_e) {
-  
-  // Declare variables
-  int smallest_integer = integer_a;
-
-  // Compare each integer to the previous smallest integer to determine
-  // the smallest int
-  if (integer_b < smallest_integer) smallest_integer = integer_b;
-  if (integer_c < smallest_integer) smallest_integer = integer_c;
-  if (integer_d < smallest_integer) smallest_integer = integer_d;
-  if (integer_e < smallest_integer) smallest_integer = integer_e;
-
-  return smallest_integer;
+int get_integer_count() {
+  int total_ints;
+  while (true) {
+    cout << "Enter the total number of integers to compare: ";
+    cin >> total_ints;
+    if (check_data()) break;
+  }
+  return total_ints;
 }
 
-
-int main() {
-  int integer_a, integer_b, integer_c, integer_d, integer_e;
-  
-  // Obtain user input
+int get_integer_input(int integer) {
+  int number;
   while (true) {
-    cout << "Please enter integer #1: ";
-    cin >> integer_a;
+    cout << "Enter integer " << integer << ": ";
+    cin >> number;
     if (check_data()) break;
   }
-  
-  while (true) { 
-    cout << "Please enter integer #2: ";
-    cin >> integer_b;
-    if (check_data()) break;
-  }
-  
-  while (true) {
-    cout << "Please enter integer #3: ";
-    cin >> integer_c;
-    if (check_data()) break;
-  }
+  return number;
+}
 
-  while (true) {
-    cout << "Please enter integer #4: ";
-    cin >> integer_d;
-    if (check_data()) break;
+int find_smallest(int total_ints) {
+  int smallest = get_integer_input(1);
+  int number;
+
+  for (int integer = 2; integer <= total_ints; ++integer) {
+    number = get_integer_input(integer);
+    if (number < smallest) {
+      smallest = number;
+    }
   }
-
-  while (true) {
-    cout << "Please enter integer #5: ";
-    cin >> integer_e;
-    if (check_data()) break;
-  }
-
-  // Get smallest integer and display it
-  int smallest_integer = find_smallest(integer_a, integer_b, integer_c, integer_d, integer_e);
-  cout << "The smallest integer is: " << smallest_integer << endl;
-
-  return 0;
+  return smallest;
 }
