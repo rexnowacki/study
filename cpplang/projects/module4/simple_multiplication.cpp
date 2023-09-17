@@ -1,4 +1,7 @@
-
+// Christopher Nowacki
+// CIS 278
+// Elementary Multiplication Program
+//
 #include <iostream>
 #include <cstdlib> // Used for exit()
 #include <ctime>

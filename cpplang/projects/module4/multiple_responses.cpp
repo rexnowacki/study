@@ -1,8 +1,11 @@
+// Christopher Nowacki
+// CIS 278 
+// Elementary Multiplication Program w/ Multiple Responses 
 
 #include <iostream>
-#include <cstdlib>
+#include <cstdlib> // Used for exit()
 #include <ctime>
-#include <limits>
+#include <limits> // Used for numeric_limits in data validation codeblock
 
 using namespace std;
 
@@ -27,28 +30,32 @@ void ask_question(int number1, int number2) {
     cout << "What is " << number1 << " times " << number2 << "? ";
     cin >> answer;
 
-    // Data validation
+    // Attempted data validation
+    // via: https://www.codespeedy.com/taking-only-integer-input-in-cpp/
     if (!cin) {
       cout << "Please enter an integer." << endl;
       cin.clear();
       cin.ignore(numeric_limits<streamsize>::max(), '\n');
       continue;
     }
-
+    
+    // If answer is correct, offer another question or optiont to exit
+    // Uses another random integer and switch statements to vary 
+    // positive feedback
     if (answer == number1 * number2) {
-      int random_correct = (rand() % 4) + 1;
-      switch (random_correct) {
+      int random_feedback = (rand() % 4) + 1;
+      switch (random_feedback) {
         case 1:
           cout << "Very good!" << endl;
           break;
         case 2:
-          cout << "How nice!" << endl;
+          cout << "Excellent!" << endl;
           break;
         case 3:
-          cout << "Super job!" << endl;
+          cout << "Nice work!" << endl;
           break;
         case 4:
-          cout << "Well done steakboy!" << endl;
+          cout << "Keep up the good work!" << endl;
           break;
       }
       cout << "Try another, or enter '-1' to exit." << endl;
@@ -58,20 +65,23 @@ void ask_question(int number1, int number2) {
       cout << "Goodbye." << endl;
       exit(0);
     }
+    // If answer is incorrect, have them try again
+    // Uses another random integer and switch statements to vary
+    // feedback to try again
     else {
-      int random_wrong = (rand() % 4) + 1;
-      switch (random_wrong) {
+      int random_feedback = (rand() % 4) + 1;
+      switch (random_feedback) {
         case 1:
           cout << "No. Please try again." << endl;
           break;
         case 2:
-          cout << "Be smart man!" << endl;
+          cout << "Wrong. Try once more." << endl;
           break;
         case 3:
-          cout << "Ohh so close!" << endl;
+          cout << "Don't give up!" << endl;
           break;
         case 4:
-          cout << "Shoulda had the lasagna!" << endl;
+          cout << "No, keep trying." << endl;
           break;
       }
     }
@@ -81,5 +91,5 @@ void ask_question(int number1, int number2) {
 int main() {
   srand(static_cast<unsigned int>(time(0)));  // Seed the random number generator
   generate_question(); // Generate question
-  return 0;
+  return 0; 
 }
