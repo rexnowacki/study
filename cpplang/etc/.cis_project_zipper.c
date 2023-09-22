@@ -28,7 +28,7 @@ std::string findLanguageDir(const std::string& currentDir) {
 }
 
 int main() {
-    std::string username = "rex";
+    std::string username = "christopher_nowacki";
     std::string classname;
 
     // Get the current directory name
