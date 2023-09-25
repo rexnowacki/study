@@ -1,6 +1,6 @@
 // Christopher Nowacki
 // CIS 278
-// Project Name
+// 5.17 -- Calculating Sales
 
 #include <iostream>
 #include <iomanip>

@@ -1,6 +1,6 @@
 // Christopher Nowacki
 // CIS 278 -- Module 5
-// Integer Comparison Tool
+// 5.11 -- Integer Comparison
 
 #include <iostream>
 #include <limits>
