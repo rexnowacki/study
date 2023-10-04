@@ -33,12 +33,12 @@ int main(int argc, char *argv[]) {
     printf("Total: %d\n", total);
 
     // Display the appropriate message based on the total
-    if (total == 17 || total == 18) {
-        printf("%s lets you pound her tight pussy.\n", argv[1]);
+    if (total >= 15) {
+        printf("%s is a dinosaur\n", argv[1]);
     } else if (total >= 14 && total <= 16) {
-        printf("%s puts her hair in a ponytail and drops to her knees.\n", argv[1]);
+        printf("%s is a unicorn.\n", argv[1]);
     } else {
-        printf("%s isn't horny. Too bad bb\n", argv[1]);
+        printf("%s is a warlock\n", argv[1]);
     }
 
     return 0;
