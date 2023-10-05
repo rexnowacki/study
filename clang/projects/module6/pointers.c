@@ -20,10 +20,10 @@ double inner_product(const double *a, const double *b, int n) {
 }
 
 int main() {
-  double arr1[] = {1.0, 2.0, 3.0, 4.0, 5.0};
-  double arr2[] = {5.0, 4.0, 3.0, 2.0, 1.0};
-  int length = sizeof(arr1) / sizeof(arr1[0]); // 40 / 8 = 5
-  double result = inner_product(arr1, arr2, length);
+  double array_1[] = {1.0, 2.0, 3.0, 4.0, 5.0};
+  double array_2[] = {5.0, 4.0, 3.0, 2.0, 1.0};
+  int length = sizeof(array_1) / sizeof(array_1[0]); // 40 / 8 = 5
+  double result = inner_product(array_1, array_2, length);
   // Product should equal 35: 
   // (1.00*5.00) + (2.00*4.00) + (3.00*3.00) + (4.00*2.00) + (5.00*1.00)
   // == 5.00 + 8.00 + 9.00 + 8.00 + 5.00 == 35.00
