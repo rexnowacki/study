@@ -1,0 +1,77 @@
+<mxfile host="Electron" modified="2023-10-11T16:45:04.496Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="qc1ZvV0TmFY-vlxyOTW-" version="22.0.2" type="device">
+  <diagram name="Page-1" id="cOmYlvErpTTusq7mmkkD">
+    <mxGraphModel dx="462" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rwQVO-Mf-Klu818Rx7sF-1" value="" style="ellipse;html=1;shape=startState;fillColor=#60a917;strokeColor=#2D7600;rotation=-91;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="50" y="210" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rwQVO-Mf-Klu818Rx7sF-3" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="rwQVO-Mf-Klu818Rx7sF-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="420" as="sourcePoint" />
+            <mxPoint x="150" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwQVO-Mf-Klu818Rx7sF-4" value="Time open" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="150" y="205" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rwQVO-Mf-Klu818Rx7sF-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="rwQVO-Mf-Klu818Rx7sF-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="420" as="sourcePoint" />
+            <mxPoint x="350" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwQVO-Mf-Klu818Rx7sF-6" value="New schedule" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rwQVO-Mf-Klu818Rx7sF-7" value="Time blocked" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="350" y="205" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rwQVO-Mf-Klu818Rx7sF-8" value="Admin blocks schedule" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="190" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rwQVO-Mf-Klu818Rx7sF-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.436;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="rwQVO-Mf-Klu818Rx7sF-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="420" as="sourcePoint" />
+            <mxPoint x="350" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="198" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwQVO-Mf-Klu818Rx7sF-10" value="Time closed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="350" y="280" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rwQVO-Mf-Klu818Rx7sF-12" value="class checkSchedule(patientID, date, time)" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="10" y="90" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rwQVO-Mf-Klu818Rx7sF-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#60a917;strokeColor=#2D7600;entryX=0.182;entryY=1.125;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rwQVO-Mf-Klu818Rx7sF-10" target="rwQVO-Mf-Klu818Rx7sF-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="420" as="sourcePoint" />
+            <mxPoint x="160" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="415" y="360" />
+              <mxPoint x="170" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwQVO-Mf-Klu818Rx7sF-15" value="Appointment booked" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="250" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rwQVO-Mf-Klu818Rx7sF-16" value="Appointment Cancelled" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="370" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rwQVO-Mf-Klu818Rx7sF-18" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="rwQVO-Mf-Klu818Rx7sF-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="420" as="sourcePoint" />
+            <mxPoint x="520" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rwQVO-Mf-Klu818Rx7sF-19" value="" style="ellipse;html=1;shape=endState;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="520" y="285" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

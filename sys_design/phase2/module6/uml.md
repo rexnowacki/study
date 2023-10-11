@@ -203,4 +203,30 @@ UML Notation    Nature of Relationship    Example                         Descri
 
 # 6.8.4 Sequence Diagrams
 
+**Sequence diagram** is a dynamic model of a use case, showing the interaction among classes during a
+specified time period. It usually shows classes, messages, and the timing of the messages. 
+
+**Classes:** identified by a rectangle with class_name inside. 
+**Lifelines:** dashed line that represents the time during which the object
+           above it is able to interact with the other objects in the use case.
+           It's end is marked with an *X*.
+**Messages:** Identified by a line showing direction that runs between two objects. The label
+          shows the name of the message and can include additional information.
+**Focuses:** narrow vertical shape that covers the lifeline -- indicates when an object 
+         sends or receives messages.
+
+# 6.8.5 State Transition Diagram
+
+State refers to an objects *current status*, so...
+**State Transition Diagram** shows how an object changes from one state to another. 
+  1. New account's state is *new*. 
+  2. After first deposit, it becomes *active*.
+  3. If closed, it becomes *inactive*.
+  4. If assets are frozen, becomes *frozen*.
+
+States appear as rounded rectangles with the state names inside. First point of interaction
+is represented with a closed green circle -- a green circle with a hollow border represents the
+final interaction. 
+
+# 6.8.6 Activity Diagrams
 
