@@ -230,3 +230,5 @@ final interaction.
 
 # 6.8.6 Activity Diagrams
 
+An **activity diagram** resembles a horizontal flowchart that shows the actions and events as they occur.
+
