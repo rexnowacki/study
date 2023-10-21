@@ -1,6 +1,7 @@
 // Christopher Nowacki
 // CIS 265
 // File IO Module 8
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>
 
