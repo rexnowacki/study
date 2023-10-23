@@ -8,12 +8,12 @@
 using namespace std;
 
 bool testPalindrome(const string& str, int start = 0, int end = -1) {
-    // If end is default (-1), set it to the last character of the string
+    // If end is (-1) (DEFAULT), set it to the last character of the string
     if (end == -1) {
         end = str.length() - 1;
     }
 
-    // Base case: If start index is greater than or equal to end index, return true
+    // If start index is greater than or equal to end index, return true
     if (start >= end) {
         return true;
     }
@@ -21,7 +21,7 @@ bool testPalindrome(const string& str, int start = 0, int end = -1) {
     if (str[start] != str[end]) {
         return false;
     }
-    // Recursive testPalindrome call
+    // Recursive call
     return testPalindrome(str, start + 1, end - 1);
 }
 
@@ -29,10 +29,12 @@ int main() {
     // Get user input and call testPalindrome
     string input;
     cout << "Enter a string: ";
-    getline(cin, input);
+    getline(cin, input); // Get entire line
+      // True case
     if (testPalindrome(input)) {
         cout << "\"" << input << "\" is a palindrome." << endl;
     } else {
+      // False case
         cout << "\"" << input << "\" is not a palindrome." << endl;
     }
     return 0;
