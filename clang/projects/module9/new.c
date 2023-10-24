@@ -45,10 +45,12 @@ int main(void) {
 
         // Dynamically allocate memory for the word and copy the content from buffer
         word_list[word_count] = malloc(strlen(buffer) + 1);
+        // If allocation fails
         if (word_list[word_count] == NULL) {
             printf("Memory allocation failed. Exiting...\n");
             exit(EXIT_FAILURE);
         }
+        // Copy string from buffer into array
         strcpy(word_list[word_count], buffer);
 
         word_count++;
