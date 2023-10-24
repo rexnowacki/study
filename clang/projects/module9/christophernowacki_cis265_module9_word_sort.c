@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+#define _CRT_SECURE_NO_WARNINGS
 #define MAX_WORDS 100 // Max words
 #define MAX_WORD_SIZE 20 // Maximum size of each word
 
@@ -20,6 +21,7 @@ int read_line(char str[], int word_size) {
     return i;
 }
 
+// Comparison Function
 int word_compare(const void *first_word, const void *second_word) {
     // Convert to character pointers
     const char *word_a = *(const char **)first_word;
