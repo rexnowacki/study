@@ -1,5 +1,9 @@
-
+// Christopher Nowacki
+// CIS 278
+// Card Class
 #include <string>
+
+using namespace std;
 
 // Card class definition
 class Card {
@@ -20,21 +24,21 @@ public:
         suit = s;
     }
 
-    // Converts a card to a string like "Two of Hearts"
-    std::string toString() const {
-        return std::string(faceStrings[face]) + " of " + std::string(suitStrings[suit]);
+    // Converts a card to a string ex:  "Ace of Spades"
+    string toString() const {
+        return string(faceStrings[face]) + " of " + string(suitStrings[suit]);
     }
 
     // Public variables (fields) for face and suit
     Face face;
     Suit suit;
 
-    // String representations for faces and suits
+    // Strings for faces and suits
     static const char* faceStrings[MAX_FACES];
     static const char* suitStrings[MAX_SUITS];
 };
 
-// Initialize static arrays of strings representing the faces and suits
+// Initialize arrays of strings representing the faces and suits
 const char* Card::faceStrings[Card::MAX_FACES] = {
     "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten",
     "Jack", "Queen", "King", "Ace"

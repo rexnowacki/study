@@ -1,3 +1,7 @@
+// Christopher Nowacki
+// CIS 278 
+// Deck Dealer
+
 #include <iostream>
 #include <string>
 #include <array>
@@ -6,13 +10,15 @@
 #include "card.h"
 #include "deck.h"
 
+using namespace std;
+
 // Main function
 int main() {
     DeckOfCards deckOfCards;
     deckOfCards.shuffle();
 
     while (deckOfCards.moreCards()) {
-        std::cout << deckOfCards.dealCard().toString() << std::endl;
+        cout << deckOfCards.dealCard().toString() << endl;
     }
 
     return 0;
