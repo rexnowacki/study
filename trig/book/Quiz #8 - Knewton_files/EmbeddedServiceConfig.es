@@ -1,0 +1,1 @@
+/**/embedded_svc.liveAgentAPI.handleChatSettings({"messages":[{"type":"SwitchServer", "message":{"newUrl":"https://d.la4-c2-ia4.salesforceliveagent.com/chat"}}]});

@@ -1,0 +1,314 @@
+h2[lwc-56vbshdpqil]{
+ color : white !important;
+}
+.articlefeedbackcls .slds-card__header{
+      padding-top : 0px !important;
+    }
+@media only screen and (max-height: 615px) {
+   .searchPopular{
+   min-height: 149px !important;
+    /* min-width: 192px; */
+    overflow-y: scroll !important;
+    position: absolute;
+    height: 39vh;
+   }
+   .searchBox{
+   padding: 0px 0 0px 0 !important;
+   }
+   .searchPopupList{
+   height: 153px;
+   }
+   .searchArticleTitle{
+    margin-bottom: 3px;   
+   }
+   .nextPage{
+    height: 14px;
+    margin-right: 9px;
+   }
+   .searchArticleUl li a{
+    font-size: 15px;
+   }
+   .searchArticleUl li .arrowRIght{
+    margin-right: 8px;
+   }
+   .setPaddLeftRight{
+   height:70px !important;
+   bottom: 9px !important;
+   }
+   .btnChat{
+   padding:3px 7px !important;
+   line-height: 26px !important;
+   font-size:16px !important;
+   }
+   .cardTitles{
+   font-size :16px !important;
+   }
+   .articleSummary{
+   max-height: 334px !important;
+   }
+   .magnifire{
+   top:5px !important;
+   }
+   .cSnapin_PreChatForm .knewtonprestyle{
+   height: 275px !important;
+   min-height: 275px !important;
+   }
+    .cSnapin_PreChatForm .knewtonprestyle .slds-input{
+   height: 45px !important;
+   font-size: 16px !important;
+   }
+   .cLightning_CaseEmbeddedSearchKnowledgeArticles .knewtonprestylekb .kwdsts {
+    width: 100% !important;
+    height: 42px !important;
+    border-radius: 0 !important;
+    text-align: center !important;
+    top: 379px !important;
+    bottom: 379px !important;
+    right: 6px !important;
+    position: fixed !important;
+    z-index: 1 !important;
+}
+   .cSnapin_PreChatForm .knewtonprestyle .opsdots {
+    width: 100% !important;
+    height: 42px !important;
+    border-radius: 0 !important;
+    text-align: center !important;
+    top: 418px !important;
+    bottom: 418px !important;
+    right: 9px !important;
+    position: fixed !important;
+    z-index: 1 !important;
+}
+}
+
+@media only screen and (max-height: 480px) {
+   .searchPopular{
+   min-height: 98px !important;
+    /* min-width: 192px; */
+    overflow-y: scroll !important;
+    position: absolute;
+    height: 21vh;
+   }
+   .searchBox{
+   padding: 0px 0 0px 0 !important;
+   }
+   .searchPopupList{
+   height: 153px;
+   }
+   .searchArticleTitle{
+    margin-bottom: 3px;   
+   }
+   .nextPage{
+    height: 14px;
+    margin-right: 9px;
+   }
+   .searchArticleUl li a{
+    font-size: 15px;
+   }
+   .searchArticleUl li .arrowRIght{
+    margin-right: 8px;
+   }
+   .setPaddLeftRight{
+   height:70px !important;
+   bottom: 9px !important;
+   }
+   .btnChat{
+   padding:3px 7px !important;
+   line-height: 26px !important;
+   font-size :16px !important;
+   }
+   .cardTitles{
+   font-size :16px !important;
+   }
+   .articleSummary{
+   max-height:198px !important;
+   }
+   .magnifire{
+   top:5px !important;
+   }
+    .cSnapin_PreChatForm .knewtonprestyle{
+   height: 98px !important;
+   min-height: 135px !important;
+   }
+   .cSnapin_PreChatForm .knewtonprestyle .slds-input{
+   height: 45px !important;
+   font-size: 16px !important;
+   }
+   .cLightning_CaseEmbeddedSearchKnowledgeArticles .knewtonprestylekb .kwdsts {
+    width: 100% !important;
+    height: 42px !important;
+    border-radius: 0 !important;
+    text-align: center !important;
+    top: 218px !important;
+    bottom: 218px !important;
+    right: 6px !important;
+    position: fixed !important;
+    z-index: 1 !important;
+}
+    .cSnapin_PreChatForm .knewtonprestyle .opsdots {
+    width: 100% !important;
+    height: 42px !important;
+    border-radius: 0 !important;
+    text-align: center !important;
+    top: 279px !important;
+    bottom: 279px !important;
+    right: 9px !important;
+    position: fixed !important;
+    z-index: 1 !important;
+}
+}
+
+
+@media only screen and (max-height: 400px) {
+   .searchPopular{
+   min-height: 79px !important;
+    /* min-width: 192px; */
+    overflow-y: scroll !important;
+    position: absolute;
+    height: 16vh;
+   }
+   .searchBox{
+   padding: 0px 0 0px 0 !important;
+   }
+   .searchPopupList{
+   height: 153px;
+   }
+   .searchArticleTitle{
+    margin-bottom: 3px;   
+   }
+   .nextPage{
+    height: 14px;
+    margin-right: 9px;
+   }
+   .searchArticleUl li a{
+    font-size: 15px;
+   }
+   .searchArticleUl li .arrowRIght{
+    margin-right: 8px;
+   }
+   .setPaddLeftRight{
+   height:70px !important;
+   bottom: 9px !important;
+   }
+   .btnChat{
+   padding:3px 7px !important;
+   line-height: 26px !important;
+   font-size :16px !important;
+   }
+   .cardTitles{
+   font-size :16px !important;
+   }
+   .articleSummary{
+   max-height: 169px !important;
+   }
+   .magnifire{
+   top:5px !important;
+   }
+   .cSnapin_PreChatForm .knewtonprestyle{
+   height: 73px !important;
+   min-height: 75px !important;
+   }
+   .cSnapin_PreChatForm .knewtonprestyle .slds-input{
+   height: 45px !important;
+   font-size: 16px !important;
+   }
+   .cLightning_CaseEmbeddedSearchKnowledgeArticles .knewtonprestylekb .kwdsts {
+    width: 100% !important;
+    height: 42px !important;
+    border-radius: 0 !important;
+    text-align: center !important;
+    top: 197px !important;
+    bottom: 197px !important;
+    right: 6px !important;
+    position: fixed !important;
+    z-index: 1 !important;
+}
+   .cSnapin_PreChatForm .knewtonprestyle .opsdots {
+    width: 100% !important;
+    height: 42px !important;
+    border-radius: 0 !important;
+    text-align: center !important;
+    top: 217px !important;
+    bottom: 217px !important;
+    right: 9px !important;
+    position: fixed !important;
+    z-index: 1 !important;
+}
+}
+
+@media only screen and (max-height: 370px) {
+   .searchPopular{
+   min-height: 36px !important;
+    /* min-width: 192px; */
+    overflow-y: scroll !important;
+    position: absolute;
+    height: 15vh;
+   }
+   .searchBox{
+   padding: 0px 0 0px 0 !important;
+   }
+   .searchPopupList{
+   height: 153px;
+   }
+   .searchArticleTitle{
+    margin-bottom: 3px;   
+   }
+   .nextPage{
+    height: 14px;
+    margin-right: 9px;
+   }
+   .searchArticleUl li a{
+    font-size: 15px;
+   }
+   .searchArticleUl li .arrowRIght{
+    margin-right: 8px;
+   }
+   .setPaddLeftRight{
+   height:70px !important;
+   bottom: 9px !important;
+   }
+   .btnChat{
+   padding:3px 7px !important;
+   line-height: 26px !important;
+   font-size :16px !important;
+   }
+   .cardTitles{
+   font-size :16px !important;
+   }
+   .articleSummary{
+   max-height: 133px !important;
+   }
+   .magnifire{
+   top:5px !important;
+   }
+   .cSnapin_PreChatForm .knewtonprestyle{
+   height: 58px !important;
+   min-height: 67px !important;
+   }
+    .cSnapin_PreChatForm .knewtonprestyle .slds-input{
+   height: 45px !important;
+   font-size: 16px !important;
+   }
+   .cLightning_CaseEmbeddedSearchKnowledgeArticles .knewtonprestylekb .kwdsts {
+    width: 100% !important;
+    height: 42px !important;
+    border-radius: 0 !important;
+    text-align: center !important;
+    top: 158px !important;
+    bottom: 158px !important;
+    right: 6px !important;
+    position: fixed !important;
+    z-index: 1 !important;
+}
+    .cSnapin_PreChatForm .knewtonprestyle .opsdots {
+    width: 100% !important;
+    height: 42px !important;
+    border-radius: 0 !important;
+    text-align: center !important;
+    top: 193px !important;
+    bottom: 193px !important;
+    right: 9px !important;
+    position: fixed !important;
+    z-index: 1 !important;
+}
+}
