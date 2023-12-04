@@ -1,0 +1,18 @@
+// Christopher Nowacki
+// CIS 265
+// Declarations -- Exercise #8, pp 480.
+
+Write a complete description of the type of x as specified by each of the following declarations.
+
+(a) char (*x[10])(int);
+(b) int (*x(int))[5];
+(c) float *(*x(void))(int);
+(d) void (*x(int, void (*y)(int)))(int);
+
+(a) An array of ten pointers that take int as an argument, returning char.
+(b) Pointer to function x, taking int as an argument. Returns a pointer to an array of 5 ints.
+(c) Function with no arguments that returns a pointer to a separate function which has an int argument
+    and returns a pointer to a float.
+(d) x is a function that takes two arguments, int and a pointer to another function with an int
+    argument -- which doesn't return anything [void]. x returns a poiinter to a function with an int argument
+    and no return value.

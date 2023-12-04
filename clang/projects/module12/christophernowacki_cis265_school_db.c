@@ -36,6 +36,7 @@ int loadStudents(Student students[]) {
     }
 
     int count = 0;
+    // Loop to read each student's id, name ,major, and campus
     while (fscanf(file, "%d, %49[^,], %49[^,], %24[^\n]", &students[count].id, students[count].name, students[count].major, students[count].campus) == 4) {
         count++;
     }
