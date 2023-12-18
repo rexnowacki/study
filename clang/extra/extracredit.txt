@@ -1,0 +1,15 @@
+Christopher Nowacki
+CIS 265
+Exercise #1 on page 525
+
+# (a) printf("%d", i >> 1 + j >> 1);
+yeilds 0
+
+# (b) printf("%d", i & ~i);
+yields 0
+
+# (c) printf("%d", ~i & j ^ k);
+yields 1
+
+# (d) printf("%d", i ^ j & k);
+yields 15
